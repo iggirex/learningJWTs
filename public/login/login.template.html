@@ -1,0 +1,33 @@
+<h1>{{test}}</h1>
+
+<h1>Login</h1>
+
+<form name="login">
+  <div>
+    <label for="login-username">username</label>
+    <input type="text" id="login-username">
+  </div>
+  <div>
+    <label for="login-password">password</label>
+    <input type="text" id="login-password">
+  </div>
+  <div>
+    <button>Login</button>
+  </div>
+</form>
+
+<h1>Create Account</h1>
+
+<form name="createAccount" ng-submit="create()">
+  <div>
+    <label for="createAccount-username">username</label>
+    <input type="text" id="createAccount-username" ng-model="username">
+  </div>
+  <div>
+    <label for="createAccount-password">password</label>
+    <input type="text" id="createAccount-password" ng-model="password">
+  </div>
+  <div>
+    <button>Create Account</button>
+  </div>
+</form>
